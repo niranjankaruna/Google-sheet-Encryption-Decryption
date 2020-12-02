@@ -1,5 +1,5 @@
 # Google-sheet-Encryption-Decryption-with-key
-Content of google sheet is hashed with CryptoJS
+Content of google sheet is encrypted with CryptoJS
 
 ## Configuration for Encrypting sheets:
 
@@ -28,9 +28,9 @@ Click on that and click encrypt. (If asked for permission to run script for shee
 
 Dialog box will prompt for Key.
 
-Give the private key/ master key (If you forgot the key, there is no way to retrive your hashed details)
+Give the private key/ master key (If you forgot the key, there is no way to retrive your encrypted details)
 
-Your contents will get hashed and saved in new file 'Encrypted' and old file 'Decrypted' will get delete automatically.
+Your contents will get encrypted and saved in new file 'Encrypted' and old file 'Decrypted' will get delete automatically.
 
 ### Decryption:
 Same way as like encryption, give the same key as you have already used for encryption .
