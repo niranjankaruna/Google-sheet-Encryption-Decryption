@@ -1,4 +1,4 @@
-# Google-sheet-Encryption-Decryption
+# Google-sheet-Encryption-Decryption-with-key
 Content of google sheet is hashed with CryptoJS
 
 ## Configuration for Encrypting sheets:
