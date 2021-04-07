@@ -74,8 +74,11 @@ function doDecryption(theKey) {
     for (var row=1; row < rows+1; row++) { 
       var cell=selection.getCell(row,column);
       var newcell=newRange.getCell(row,column);
+      newcell.setNumberFormat('@STRING@');
+      cell.setNumberFormat('@STRING@');
         newcell.setValue(cipher.decrypt(cell.getValue()));   
     }
+    
   }
   ss.deleteSheet(sheet);     
 }
