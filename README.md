@@ -7,7 +7,7 @@ Open Google sheet
 Rename the sheet name from 'Sheet1' to 'Decrypted'
 
 ```
-Open Tools--> Script editor
+Open Extensions --> ApScript
 ```
 Paste the contents from above file (Codes.gs) to your Code.gs file. and save it.
 Add the cryptojs library in app script.
